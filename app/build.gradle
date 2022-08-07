@@ -52,6 +52,7 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
 
     //koin @see https://insert-koin.io/docs/quickstart/android/
+    //Injeção de dependências
     implementation "io.insert-koin:koin-android:3.0.1"
     implementation "io.insert-koin:koin-android-ext:3.0.1"
 
@@ -62,4 +63,6 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
 
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
 }
